@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Fake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Link icon -->
+    <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> -->
+    <!-- Link css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link rel="stylesheet" href="./css/content.css">
+</head>
+<body>
+        <div class="app">
+            <header>
+                <div class="header-list">
+                    <ul class="header-left">
+                        <li><i class='bx btn-click btn-sidebar1 bx-menu'></i></li>
+                        <li><a href="#"><img class="logo-img" src="./Image/logo.png" alt=""></a></li>
+                    </ul>
+                    <ul class="header-center">
+                        <li><input class="input-search" type="text" placeholder="Tìm Kiếm"> 
+                            <div class="input-dropdowm">
+                                <ul class="input-dropdowm-list">
+                                    <li class="input-dropdowm-item">
+                                        <a class="input-dropdowm-item_heading heading-history " href="fb.com">Những Bản Lofi Chill Nhẹ Nhàng</a>
+                                        <a class="input-dropdowm-item_action active" href="#">Xóa</a>
+                                    </li>
+                                    <li class="input-dropdowm-item">
+                                        <a class="input-dropdowm-item_heading heading-history " href="#">Khóa học đấm nhau không đau</a>
+                                        <a class="input-dropdowm-item_action active" href="#">Xóa</a>
+                                    </li>
+                                    <li class="input-dropdowm-item">
+                                        <a class="input-dropdowm-item_heading heading-history " href="#">Có làm mới có ăn, không làm mà đòi ăn</a>
+                                        <a class="input-dropdowm-item_action active" href="#">Xóa</a>
+                                    </li>
+                                    <li class="input-dropdowm-item">
+                                        <a class="input-dropdowm-item_heading heading-history " href="#">Hướng dẫn ăn cơm</a>
+                                        <a class="input-dropdowm-item_action active" href="#">Xóa</a>
+                                    </li>
+                                    <li class="input-dropdowm-item">
+                                        <a class="input-dropdowm-item_heading" href="#">Sài Gòn Hôm Nay Mưa... / Lofi Ver. - JSOL ft. Hoàng Duyên</a>
+                                        <a class="input-dropdowm-item_action" href="#">Xóa</a>
+                                    </li>
+                                    <li class="input-dropdowm-item">
+                                        <a class="input-dropdowm-item_heading" href="#">ĐÔNG KIẾM EM / Vũ. (Original)</a>
+                                        <a class="input-dropdowm-item_action" href="#">Xóa</a>
+                                    </li>
+                                    <li class="input-dropdowm-item">
+                                        <a class="input-dropdowm-item_heading" href="#">Học lập trình 1 ngày đi làm</a>
+                                        <a class="input-dropdowm-item_action" href="#">Xóa</a>
+                                    </li>
+                                    <li class="input-dropdowm-item">
+                                        <a class="input-dropdowm-item_heading" href="#">Trang fullstack.edu.vn sử dụng những công nghệ gì?</a>
+                                        <a class="input-dropdowm-item_action" href="#">Xóa</a>
+                                    </li><li class="input-dropdowm-item">
+                                        <a class="input-dropdowm-item_heading" href="#">Tusieunhan.xyz</a>
+                                        <a class="input-dropdowm-item_action" href="#">Xóa</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="btn-border-search" ><i class='bx bx-search' ></i>
+                            <div class="btn-keyBoard"><i class='bx bxs-keyboard' ></i></div>
+                        </li>
+                        <li><i class='bx btn-click bxs-microphone btn-mic-colorFix' ></i>
+                            <div class="modal-microphone ">
+                                <div class="mic-sub"></div>
+                                    <div class="mic-content">
+                                        <i class='bx btn-x bx-x'></i>
+                                        <h3 class="mic-content-title">Đang nghe...</h3>
+                                        <div class="mic-content-box">
+                                            <i class='bx bxs-microphone ' ></i>
+                                        </div>
+                                        <p class="mic-noti">Nhấn vào micrô để thử lại</p>
+                                    </div>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="header-right">
+                        <li><i class='bx btn-click bxs-video-plus' ></i>
+                            <ul class=" video-dropdown-list">
+                                <li class="video-dropdown-item">
+                                    <i class='bx bx-movie-play'></i>
+                                    <p>Tải video lên</p>
+                                </li>
+                                <li class="video-dropdown-item">
+                                    <i class='bx bx-station'></i>
+                                    <p>Phát trực tiếp</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><i class='bx btn-click bxs-grid'></i>
+                            <div class="gird-dropdown">
+                                <ul class=" grid-dropdown-list">
+                                    <li class="grid-dropdown-item">
+                                        <i class='bx bxs-tv'></i>
+                                        <p>Youtube TV</p>
+                                    </li>
+                                </ul>
+                                <ul class=" grid-dropdown-list">
+                                    <li class="grid-dropdown-item">
+                                        <i class='bx bx-play-circle'></i>
+                                        <p>Youtube Music</p>
+                                    </li>
+                                    <li class="grid-dropdown-item">
+                                        <i class='bx bxl-youtube' ></i>
+                                        <p>Youtube Kids</p>
+                                    </li>
+                                </ul>
+                                <ul class=" grid-dropdown-list">
+                                    <li class="grid-dropdown-item">
+                                        <i class='bx bxl-youtube' ></i>
+                                        <p>Học viện sáng tạo</p>
+                                    </li>
+                                    <li class="grid-dropdown-item">
+                                        <i class='bx bxl-youtube' ></i>
+                                        <p>Youtube dành cho Nghệ sĩ</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><i class='bx btn-click bxs-bell' ></i>
+                            <div class="bell-dropdown">
+                                <ul class="bell-dropdown-list bell-dropdown-header">
+                                    <h4>Thông báo</h4>
+                                    <i class='bx bxs-cog'></i>
+                                </ul>
+                                <div class="bell-dropdown-list bell-dropdown-content">
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/user.jpg" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>👍 Ai đó đã thích câu trả lời của bạn: "@Loi Ngo tốt em"</p>
+                                                <span>2 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thumb.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>   
+                                        </li>
+                                    </ul>
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/channels4_profile.jpg" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>F8 Official đã tải lên: Closure là gì? Javascript closure?</p>
+                                                <span>2 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thum2.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>
+                                        </li>
+                                    </ul>
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/channels4_profile2.jpg" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>NEXT SPORTS đang phát trực tiếp: FULL BẢN ĐẸP | THỤY SĨ - THỔ NHĨ KỲ | SHOW DIỄN ĐỈNH CAO CỦA "MESSI DÃY ALPS" SHAQIRI | EURO 2020</p>
+                                                <span>2 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thum3.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>   
+                                        </li>
+                                    </ul>
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/ytvmt.png" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>123 Thịnh đã trả lời: "haha hahaaa ok chúc mừng a nha.e đậu r kkk"</p>
+                                                <span>8 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thumb.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>
+                                        </li>
+                                    </ul>
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/user.jpg" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>👍 Ai đó đã thích câu trả lời của bạn: "@Loi Ngo tốt em"</p>
+                                                <span>2 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thumb.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>   
+                                        </li>
+                                    </ul>
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/user.jpg" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>👍 Ai đó đã thích câu trả lời của bạn: "@Loi Ngo tốt em"</p>
+                                                <span>2 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thumb.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>   
+                                        </li>
+                                    </ul>
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/channels4_profile2.jpg" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>NEXT SPORTS đang phát trực tiếp: FULL BẢN ĐẸP | THỤY SĨ - THỔ NHĨ KỲ | SHOW DIỄN ĐỈNH CAO CỦA "MESSI DÃY ALPS" SHAQIRI | EURO 2020</p>
+                                                <span>2 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thum3.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>   
+                                        </li>
+                                    </ul>
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/ytvmt.png" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>123 Thịnh đã trả lời: "haha hahaaa ok chúc mừng a nha.e đậu r kkk"</p>
+                                                <span>8 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thumb.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>
+                                        </li>
+                                    </ul>
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/channels4_profile.jpg" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>F8 Official đã tải lên: Closure là gì? Javascript closure?</p>
+                                                <span>2 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thum2.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>
+                                        </li>
+                                    </ul>
+                                    <ul class="bell-dropdown-item">
+                                        <li>
+                                            <img src="./Image/channels4_profile2.jpg" alt="" class="bell-dropdown-icon">
+                                        </li>
+                                        <li>
+                                            <div class="bell-dropdown-desc">
+                                                <p>NEXT SPORTS đang phát trực tiếp: FULL BẢN ĐẸP | THỤY SĨ - THỔ NHĨ KỲ | SHOW DIỄN ĐỈNH CAO CỦA "MESSI DÃY ALPS" SHAQIRI | EURO 2020</p>
+                                                <span>2 giời trước</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <img src="./Image/thum3.jpg" alt="" class="bell-dropdown-img">
+                                        </li>
+                                        <li>
+                                            <i class='bx btn-dropdown-noti bx-dots-vertical-rounded'></i>   
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li><i><img src="./Image/user.jpg" alt="" class="user-img"></i>
+                            <div class="user-dropdown">
+                                <ul class=" user-dropdown-list">
+                                    <li class="user-dropdown-item user-dropdown-item-hoverNone ">
+                                        <img src="./Image/user.jpg" alt="" class="img-user-dropdown">
+                                        <div class="user-dropdown-profile">
+                                            <h4>Tu Sieu Nhan</h4>
+                                            <a href="">Quản lý Tài khoản Google của bạ..</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class=" user-dropdown-list">
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bxs-user-rectangle'></i>
+                                        <p>Kênh của bạn</p>
+                                    </li>
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bxs-dollar-circle' ></i>
+                                        <p>Giao dịch và mua gói hội viên</p>
+                                    </li>
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bxl-youtube' ></i>
+                                        <p>Youtube Studio</p>
+                                    </li>
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bxs-user-account' ></i>
+                                        <p>Chuyễn đổi tài khoản</p>
+                                        <div class="btn-dropdown-right">
+                                            <i class='bx btn-dropdown-right bx-chevron-right'></i>
+                                        </div>
+                                    </li>
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bx-log-in' ></i>
+                                        <p>Đăng xuất</p>
+                                    </li>
+                                </ul>
+                                <ul class=" user-dropdown-list">
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bxs-adjust' ></i>
+                                        <p>Giao diện: Giao diện của thiết..</p>
+                                        <div class="btn-dropdown-right">
+                                            <i class='bx  btn-dropdown-rightbx-chevron-right'></i>
+                                        </div>
+                                    </li>
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bx-font-family'></i>
+                                        <p>Nguôn ngữ: Tiếng Việt</p>
+                                        <div class="btn-dropdown-right">
+                                            <i class='bx btn-dropdown-right bx-chevron-right'></i>
+                                        </div>
+                                    </li> 
+                                    <li class="user-dropdown-item">
+                                         <i class='bx bx-world'></i>
+                                            <p>Địa điểm: Việt Nam</p>
+                                            <div class="btn-dropdown-right">
+                                                <i class='bx btn-dropdown-right bx-chevron-right'></i>
+                                            </div>
+                                    </li>
+                                    <li  class="user-dropdown-item">
+                                        <i class='bx bxs-cog' ></i>
+                                        <p>Cài đặt</p>
+                                    </li>
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bx-shield-quarter' ></i>
+                                        <p>Dữ liệu của bạn trong Youtube</p>
+                                    </li>
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bxs-help-circle' ></i>
+                                        <p>Trợ giúp</p>
+                                    </li>
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bxs-message-error'></i>
+                                        <p>Gửi Phản hồi</p>
+                                    </li>
+                                    <li class="user-dropdown-item">
+                                        <i class='bx bxs-keyboard' ></i>
+                                        <p>Phím tắt</p>
+                                    </li>
+                                </ul>
+                                <ul class=" user-dropdown-list">
+                                    <li class="user-dropdown-item">
+                                        <p class='user-dropdown-last'>Chế độ hạn chế: Đã tắt</p>
+                                        <div class="btn-dropdown-right">
+                                            <i class='bx btn-dropdown-right bx-chevron-right'></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="sidebar">
+                <div class="header-list sidebar-header-list">
+                    <ul class="header-left">
+                        <li><i class='bx btn-click btn-sidebar2 bx-menu'></i></li>
+                        <li><img class="logo-img sidebar-logo-img" src="./Image/logo.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="sidebar-content">
+                    <div class="sidebar-content_top">
+                        <ul class="sidebar-top-list">
+                            <li class="sidebar-top-item" >
+                                <i class='bx bxs-home'></i>
+                                <p>Trang chủ</p>
+                            </li>
+                            <li class="sidebar-top-item" >
+                                <i class='bx bxs-compass'></i>
+                                <p>Khám phá</p>
+                            </li>
+                            <li class="sidebar-top-item" >
+                                <i class='bx bxs-collection'></i>
+                                <p>Kênh đăng kí</p>
+                            </li>
+                        </ul>
+                        <div class="sidebar-top-list sidebar-center-list-more">
+                            <ul>
+                                <li class="sidebar-top-item" >
+                                    <i class='bx bxs-videos'></i>
+                                    <p>Thư viện</p>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <i class='bx bx-history'></i>
+                                    <p>Video đã xem</p>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <i class='bx bx-caret-right-square'></i>
+                                    <p>Video của bạn</p>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <i class='bx bxs-alarm'></i>
+                                    <p>Xem sau</p>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <i class='bx bxs-like'></i>
+                                    <p>Video đã thích</p>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <i class='bx bx-list-check' ></i>
+                                    <p>Khóa học JS</p>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <i class='bx bx-list-check' ></i>
+                                    <p>Học Lập trình</p>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <i class='bx bx-list-check' ></i>
+                                    <p>Nhạc USUK</p>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <i class='bx bx-list-check' ></i>
+                                    <p>Tú Đẹp Trai</p>
+                                </li>
+                            </ul>
+                            <li class="sidebar-top-item sidebar-top-item-fix btn-add" >
+                                <i class='bx btn_more_down bx-chevron-down' ></i>
+                                <p class='sidebar_more_title'>Thêm</p>
+                            </li>
+                        </div>
+                        
+                        <div class="sidebar-top-list sidebar-center2-list-more">
+                            <h4 class="sidebar-center2-title">KÊNH ĐĂNG KÍ</h4>
+                            <ul>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/user.jpg" alt="" class="sidebar-channel-avt">
+                                    <p>Tú Offical</p>
+                                    <div class="btn-live active"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/channels4_profile2.jpg" alt="" class="sidebar-channel-avt">
+                                    <p>Next Sports</p>
+                                    <div class="btn-live active"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/thumb.jpg" alt="" class="sidebar-channel-avt">
+                                    <p>Fall in Luv</p>
+                                    <div class="btn-live active"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/2d-gradient-6.png" alt="" class="sidebar-channel-avt">
+                                    <p>Jonna Tech</p>
+                                    <div class="btn-live active"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/channels4_profile.jpg" alt="" class="sidebar-channel-avt">
+                                    <p>F8 Official</p>
+                                    <div class="btn-live"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/2d-gradient-4.png" alt="" class="sidebar-channel-avt">
+                                    <p>haha hahaha</p>
+                                    <div class="btn-live"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/unnamed.jpg" alt="" class="sidebar-channel-avt">
+                                    <p>Phạm Huy Hoàng</p>
+                                    <div class="btn-live"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/2d-gradient-6.png" alt="" class="sidebar-channel-avt">
+                                    <p>Tech</p>
+                                    <div class="btn-live active"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/channels4_profile.jpg" alt="" class="sidebar-channel-avt">
+                                    <p>F9 Official</p>
+                                    <div class="btn-live"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/2d-gradient-4.png" alt="" class="sidebar-channel-avt">
+                                    <p>Pronhub Offical</p>
+                                    <div class="btn-live"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/user.jpg" alt="" class="sidebar-channel-avt">
+                                    <p>Lê Văn Tú</p>
+                                    <div class="btn-live"><i class="bx bx-station"></i></div>
+                                </li>
+                                <li class="sidebar-top-item" >
+                                    <img src="./Image/user.jpg" alt="" class="sidebar-channel-avt">
+                                    <p>Apple</p>
+                                </li>
+                            </ul>
+                            <li class="sidebar-top-item sidebar-top-item-fix btn-add-hai" >
+                                <i class='bx btn_more_down2 bx-chevron-down' ></i>
+                                <p class='sidebar_more_title2'>Hiển thị thêm</p>
+                            </li>
+                        </div>
+                        <ul class="sidebar-top-list sidebar-center3-list-more">
+                            <h4 class="sidebar-center2-title">DỊCH VỤ KHÁC CỦA YOUTUBE</h4>
+                            <li class="sidebar-top-item" >
+                                <i class='bx bx-code-block'></i>
+                                <p>Lập trình</p>
+                            </li>
+                            <li class="sidebar-top-item" >
+                                <i class='bx bx-station'></i>
+                                <p>Sự kiện trực tiếp</p>
+                            </li>
+                            <li class="sidebar-top-item" >
+                                <i class='bx bxs-medal'></i>
+                                <p>Thể thao</p>
+                            </li>
+                        </ul>
+                        <ul class="sidebar-top-list sidebar-center4-list-more">
+                            <li class="sidebar-top-item" >
+                                <i class="bx bxs-cog"></i>
+                                <p>Cài đặt</p>
+                            </li>
+                            <li class="sidebar-top-item" >
+                                <i class='bx bxs-flag-alt'></i>
+                                <p>Lịch sử báo cáo</p>
+                            </li>
+                            <li class="sidebar-top-item" >
+                                <i class="bx bxs-help-circle"></i>
+                                <p>Trợ giúp</p>
+                            </li>
+                            <li class="sidebar-top-item" >
+                                <i class="bx bxs-message-error"></i>
+                                <p>Gửi phản hồi</p>
+                            </li>
+                        </ul>
+                        <ul class="sidebar-top-list sidebar-center5-list-more">
+                            <li>
+                                <a> Giới thiệu </a> <a> Báo chí </a> <a> Bản quyền </a>
+                                <a> Liên hệ với chúng tôi </a> <a>Người sáng tạo </a> <a> Quảng cáo </a>
+                                <a> Nhà phát triển </a>
+                                <div class="spaceeeeee"></div>
+                                <a> Giới thiệu </a> <a> Báo chí </a> <a> Bản quyền </a>
+                                <a> Liên hệ với chúng tôi </a> <a>Người sáng tạo </a> <a> Quảng cáo </a>
+                                <a> Nhà phát triển </a>
+                                <span><i class='bx bx-copyright'></i>2021 Van Tu - Tu Sieu Nhan</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-sub">
+            </div>
+            <nav>
+                <div class="content row">
+                    <div class="content-left">
+                        <div class="content-video">
+                            <video class="video" src="./Video/ĐỢI  VŨ ORIGINAL_1080pFHR.mp4"></video>
+                            <ul class="play_center play_center-active">
+                            </ul>
+                            <div class="btns_video">
+                                <ul class="btn_video-line">
+                                    <input id="progress" class="progress" type="range" value="30" step="1" min="0" max="100">
+                                </ul>
+                                <div class="btn_video-box">
+                                    <ul class="btn_video-left btn_video-list">
+                                        <li class="btn_video-item btn_play">
+                                            <i class='bx bx-pause bx-pause-fix btn_Action'></i>
+                                            <i class='bx bxs-right-arrow bxs-right-arrow-fix'></i>
+                                        </li>
+                                        <li class="btn_video-item btn_video-item2"><i class='bx bx-skip-next'></i></li>
+
+                                        <li class="btn_video-item btn-volume "><i class='bx  bxs-volume-full'>
+                                            <i class="btn-volum-off"></i>
+                                        </i>
+                                            <input id="progress2" class="progress2" type="range" value="0.1" step="0.1" min="0" max="1">
+                                        </li>
+                                        <li class="btn_video-item btn_hours"> 
+                                            <span class="currentTimeVideo" >
+                                                <span class="currentMins">00</span>
+                                                <span class="fix-hour" >:</span>
+                                                <span class="currentSeconds">00</span>
+                                            </span>  
+                                            <span>
+                                            /
+                                            </span> 
+                                            <span class="durationTimeVideo">
+                                                <span class="durationMins">00</span>
+                                                <span class="fix-hour" >:</span>
+                                                <span class="durationSeconds">00</span>
+                                            </span>    
+                                        </li>
+                                    </ul>
+                                    <ul class="btn_video-right btn_video-list">
+                                        <li class="btn_video-item"><i class='bx bxs-captions'></i></li>
+                                        <li class="btn_video-item btn-setting"><i class='bx bxs-cog'>
+                                            <div class="icon-hd">HD</div>
+                                            <div class="box-seting">
+                                                <ul class="box-seting-list">
+                                                    <li class="box-seting-item">
+                                                        <p class="box-seting-item_title">Tốc độ phát</p>
+                                                        <p class="box-seting-item_desc">Chuẩn <i class='bx bx-chevron-right'></i></p>
+                                                    </li>
+                                                    <li class="box-seting-item">
+                                                        <p class="box-seting-item_title">Phụ đề (1)</p>
+                                                        <p class="box-seting-item_desc">Tắt <i class='bx bx-chevron-right'></i></p>
+                                                    </li>
+                                                    <li class="box-seting-item">
+                                                        <p class="box-seting-item_title">Chất lượng</p>
+                                                        <p class="box-seting-item_desc">Tự động 1080p  &nbsp; &nbsp; <span class="box-seting-item_HD">HD</span> <i class='bx bx-chevron-right'></i></p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </i>
+                                        </li>
+                                        <li class="btn_video-item btn_video-item-fix2"><i class='bx bx-cast'></i></li>
+                                        <li class=" btn_video-item btn_video-item-fix"><i class='bx bx-rectangle'></i></li>
+                                        <li class="btn_video-item"><i class='bx bx-fullscreen'></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content-title">
+                                <h3 class="content_heading">Những Bản Nhạc Indie Lofi Tuyệt Vời Nhất...「Chill cùng #Chang」</h3>
+                                <div class="content_info">
+                                    <div class="content_info-view">
+                                        <span class="content_info-viewer">1.291.000 lượt xem</span>
+                                        <i class='bx bxs-circle'></i>
+                                        <span class="content_info-day">25 thg 2, 2020</span>
+                                    </div>
+                                    <div class="content_info-social">
+                                        <ul class="content_info-social-list">
+                                            <li class="content_info-social-item content_info-like1 ">
+                                                <i class='bx bxs-like '>
+                                                    <div class="btn-line_line"></div>
+                                                </i>  
+                                                <a>19N</a>
+                                            </li>
+                                            <li class="content_info-social-item content_info-like2">
+                                                <i class='bx bxs-dislike' ></i>  
+                                                <a>268</a>
+                                            </li>
+                                            <li class="content_info-social-item content_info-share">
+                                                <i class='bx bxs-share' ></i>  
+                                                <a>CHIA SẼ</a>
+                                            </li>
+                                            <div class="modal_blur"></div>
+                                            <div class="share-box">
+                                                <div class="share-box_header">
+                                                    <h5 class="share-box_header-title">Chia sẻ</h5>
+                                                    <h5 class="share-box_header-close share-box_header-close-fix"><i class='bx bx-x'></i></h5>
+                                                </div>
+                                                <ul class="share-box_list">
+                                                    <li class="share-box-item">
+                                                        <div class="share-box-icon code "><i class='bx bx-code'></i></div>
+                                                        <p>Nhúng</p>
+                                                    </li>
+                                                    <li class="share-box-item">
+                                                        <div class="share-box-icon facebook"><i class='bx bxl-facebook'></i></div>
+                                                        <p>Facebook</p>
+                                                    </li>
+                                                    <li class="share-box-item">
+                                                        <div class="share-box-icon whatsapp"><i class='bx bxl-whatsapp' ></i></div>
+                                                        <p>Whatsapp</p>
+                                                    </li>
+                                                    <li class="share-box-item">
+                                                        <div class="share-box-icon twitter"><i class='bx bxl-twitter' ></i></div>
+                                                        <p>Twitter</p>
+                                                    </li>
+                                                    <li class="share-box-item">
+                                                        <div class="share-box-icon mail"><i class='bx bx-mail-send'></i></div>
+                                                        <p>Email</p>
+                                                    </li>
+                                                    <li class="share-box-item">
+                                                        <div class="share-box-icon github"><i class='bx bxl-github'></i></div>
+                                                        <p>Github</p>
+                                                    </li>
+                                                </ul>
+                                                <div class="share-box-copy">
+                                                    <p class="share-box-copy-content">tusieunhan.xyz</p>
+                                                    <h4 class="share-box-copy-action">SAO CHÉP</h4>
+                                                </div>
+                                                <div class="share-box-footer">
+                                                    <input type="checkbox">
+                                                    <p>Bắt đầu tại</p>
+                                                </div>
+                                            </div>
+                                            <li class="content_info-social-item content_info-social-item2">
+                                                <i class='bx bx-list-plus' ></i>  
+                                                <a>LƯU</a>
+                                            </li>
+                                            <div class="save-box">
+                                                <div class="save-box-header">
+                                                    <p class="modal_box-title">Lưu vào...</p>
+                                                    <i class='bx modal_box-title-close bx-x'></i>
+                                                </div>
+                                                <ul class="save-box-list">
+                                                    <li class="save-box-item">
+                                                        <div class="save-box-item2">
+                                                            <input type="checkbox">
+                                                            <p>Xem sau</p>
+                                                        </div>
+                                                        <i class='bx bxs-lock'></i>
+                                                    </li>
+                                                    <li class="save-box-item">
+                                                        <div class="save-box-item2">
+                                                            <input type="checkbox">
+                                                            <p>Javascript</p>
+                                                        </div>
+                                                        <i class='bx bxs-lock'></i>
+                                                    </li>
+                                                    <li class="save-box-item">
+                                                        <div class="save-box-item2">
+                                                            <input type="checkbox">
+                                                            <p>F8 Official</p>
+                                                        </div>
+                                                        <i class='bx bxs-lock'></i>
+                                                    </li>
+                                                </ul>
+                                                <div class="btn-listnew">
+                                                    <i class='bx bx-plus'></i>
+                                                    <p>Tạo danh phát sách mới</p>
+                                                </div>
+                                                <ul class="save-box-footer">
+                                                    <li class="save-box-footer-item">
+                                                        <label for="">Tên</label>
+                                                        <input type="text" placeholder="Nhập tên danh sách phát...">
+                                                        <label class="coclassrieng" for="">0/150</label>
+                                                    </li>
+                                                    <li class="save-box-footer-item">
+                                                        <label for="">Quyền riêng tư</label>
+                                                        <select name="" id="">
+                                                            <option value="">Riêng tư</option>
+                                                            <option value="">Không công khai</option>
+                                                            <option value="">Công khai</option>
+                                                        </select>
+                                                    </li>
+                                                    <li class="save-box-footer-item">
+                                                        <h4>TẠO</h4>
+                                                    </li>   
+
+                                                </ul>
+                                            </div>
+                                            <li class="content_info-social-item btn-report">
+                                                <i class='bx bx-dots-horizontal-rounded'></i> 
+                                                <div class="box-report">
+                                                    <ul class="box-report-list">
+                                                        <li class="box-report-item">
+                                                            <i class='bx bxs-flag-alt'></i>
+                                                            <p>Báo cáo vi phạm</p>
+                                                        </li>
+                                                        <li class="box-report-item">
+                                                            <i class='bx bxs-face'></i>
+                                                            <p>Tư đấm vào mặt</p>
+                                                        </li>
+                                                    </ul>
+                                                </div> 
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-right">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    <script src="./js/listText.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

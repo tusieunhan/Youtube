@@ -1,0 +1,42 @@
+:root{
+    --main-color: #f9f9f9;
+    --text-color: #150303;
+    --subText-color: #606060;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: var(--main-color);
+    font-family: Roboto, sans-serif;
+    overflow-x: hidden;
+}
+p{
+    color: var(--txt-color);
+    font-size: 14px;
+}
+span{
+    font-size: 12px;
+    color: var(--subText-color)
+}
+a {
+    text-decoration: none;
+    color: unset;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+ul,li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
