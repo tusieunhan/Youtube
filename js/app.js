@@ -120,10 +120,11 @@ inputSearch.onkeyup = (e) => {
             </li>`
         })
     }else{
-        inputList.style.display = 'none'
+        inputList.innerHTML = `${data}`
     }
     showHistory(array)
 }
+
 
 function showHistory(list){
     let list_data;
@@ -179,7 +180,7 @@ const btn_play = document.querySelector('.bxs-right-arrow')
 const btn_pause = document.querySelector('.bxs-right-arrow')
 const video = document.querySelector('video')
 
-// video.play()
+
 
 video.addEventListener('click', function(){
     btn_action()
@@ -369,3 +370,5 @@ modal_box__off.addEventListener('click', function(){
 social_report.addEventListener('click', function(){
     document.querySelector('.box-report').classList.toggle('active')
 })
+
+video.play()

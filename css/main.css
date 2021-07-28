@@ -3,6 +3,8 @@
     --text-color: #150303;
     --subText-color: #606060;
 }
+
+
 ::-webkit-scrollbar {
     padding-right: 5px;
     width: 8px;
@@ -386,9 +388,10 @@ input[type=text]{
 }
 .mic-content-box{
     margin: 0 auto;
-    top: 50%;
-    width:50px;
-    height: 50px;
+    margin-top: 230px;
+    top: 0%;
+    width:70px;
+    height: 70px;
     border-radius: 50%;
     cursor: pointer;
     background-color: #cecece;
@@ -400,7 +403,7 @@ input[type=text]{
 }
 .mic-active{
     color: rgb(255, 255, 255) !important;
-    position: relative;
+    /* position: relative; */
     background-color: #ff0000;
 }
 .mic-content p{
@@ -411,10 +414,10 @@ input[type=text]{
 .mic-active:before {
     content: "";
     position: absolute;
-    top: 14px;
-    left: 14px;
-    width: 100px;
-    height: 100px;
+    top: 307px;
+    left: 265px;
+    width: 60px;
+    height: 60px;
     z-index: 5;
     border : 1px solid rgb(207, 207, 207);
     background-color: #fff;
@@ -486,9 +489,4 @@ input[type=text]{
 
 
 
-
-
-nav{
-    height: 4000px;
-}
 
