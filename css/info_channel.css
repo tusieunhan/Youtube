@@ -286,6 +286,7 @@
     display: flex;
     justify-content: start;
     margin-bottom: 10px;
+    cursor: pointer;
 
 }
 .video_item img{
@@ -293,12 +294,15 @@
     width: 100%;
     display: block;
 }
-.video_item-photo {
+
+.video_item-photo img{
     overflow: hidden;
+    object-fit: 1;
     width: 168px;
     height: 94px;
     margin-right: 8px;
 }
+
 .video_item-info-title{
     display: -webkit-box;
     max-width: 100%;
@@ -313,6 +317,7 @@
     transform: translateY(-3px);
 }
 .video_item-info-tag{
+    display: none;
     width: 30px;
     height: 18px;
     background-color: #ececec;

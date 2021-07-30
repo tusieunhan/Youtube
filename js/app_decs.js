@@ -139,8 +139,6 @@ comments_btn_more.forEach((item,index) => {
   
 
 setInterval(() => {
-    const video = document.querySelector('video')
-    video.play()
     reponsiveYT()
 }, 1000);
 
