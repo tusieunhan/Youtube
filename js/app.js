@@ -28,6 +28,7 @@ function showHinh(movies){
         item.innerHTML =
          `
             <img src="${movies[index].snippet.thumbnails.medium.url}" alt="hinh">
+            
         `
     })
 }
@@ -53,7 +54,19 @@ function showMovies(movies) {
             movieEl.innerHTML = `
             <li class="video_item">
                 <ul class="video_item-photo">
-                <img src="./Image/img1.jpg" alt="hinh"></ul>
+                <img src="./Image/img1.jpg" alt="hinh">
+                </ul>
+                <ul class="video_item_hover">
+                    <div class="video_item-photo-hover">
+                        <ul class="video_item-photo-hover1">
+                            <li><i class='bx bx-play'></i></li>
+                        </ul>
+                        <ul class="video_item-photo-hover2">
+                            <li><i class='bx bxs-time'></i></li>
+                            <li><i class='bx bx-list-ul'></i></li>
+                        </ul>
+                     </div>
+                </ul>
                 <ul class="video_item-info">
                     <li>
                         <a  class="video_item-info-title">${movie.snippet.title}</a>
@@ -306,12 +319,12 @@ function showMovie(videos) {
                 </div>
             </div>
             <div class="comments-user comments-user_rep">
-                <img src="./Image/2d-gradient-4.png" alt="" class="comments-user-avt comments-user-avt2">
+                <img src="./Image/2.jpg" alt="" class="comments-user-avt comments-user-avt2">
                 <div class="comments-user-input">
-                    <a href="#" class="comments-name">UI GamingXL</a><span class="comments-time">1 tháng trước</span>
+                    <a href="#" class="comments-name">Hạ Mây</a><span class="comments-time">1 tháng trước</span>
                     <div class="comments-user_text">
                         <p class="comments-user_text_text2">
-                            tự nghĩ ra những kỷ niệm, những ký ức bên người cô gái.
+                        2020 tôi mất cậu , cậu hãy nhớ rằng tôi vẫn đợi cậu nhé 😊
                         </p>
                         <i class=' comments-user_text_icon  bx bx-dots-vertical-rounded'></i>
                         <div class="comments-report">
@@ -326,7 +339,7 @@ function showMovie(videos) {
                             <i class='bx bxs-like ' ></i>
                         </li>
                         <li class="comments-action-item">
-                            <p class="like_number" >130</p>
+                            <p class="like_number" >68</p>
                         </li>
                         <li class="comments-action-item">
                             <i class='bx bxs-dislike'></i>
@@ -462,12 +475,15 @@ function showMovie(videos) {
                 </div>
             </div>
             <div class="comments-user comments-user_rep">
-                <img src="./Image/channels4_profile2.jpg" alt="" class="comments-user-avt comments-user-avt2">
+                <img src="./Image/1.png" alt="" class="comments-user-avt comments-user-avt2">
                 <div class="comments-user-input">
-                    <a href="#" class="comments-name">Next Sport</a><span class="comments-time">1 tháng trước</span>
+                    <a href="#" class="comments-name">Nam Huynh</a><span class="comments-time">1 tháng trước</span>
                     <div class="comments-user_text">
                         <p class="comments-user_text_text2">
-                            2 năm trước khi xem MV, tôi nghĩ 2 con người ấy yêu điên cuồng, tới khi cô gái rời đi thằng điên vẫn vậy, vẫn đắm say bóng hình ấy. Nhưng giờ quay lại xem lại thấy có vẻ ngay từ đầu chỉ có thằng điên ấy tự tưởng tượng ra tình yêu, tự nghĩ ra những kỷ niệm, những ký ức bên người cô gái.
+                        Vào đây không phải là thất tình hay buồn phiền gì hết 
+                        Chỉ đơn giản là thấy quá trống vắng và cô đơn
+                        Miên man với nhiều suy nghĩ đến cuối cũng chẳng biết đang suy nghĩ gì nữa
+                        Tiếp tục nghe nhạc vậy
                         </p>
                         <i class=' comments-user_text_icon  bx bx-dots-vertical-rounded'></i>
                         <div class="comments-report">
@@ -514,7 +530,9 @@ function showMovie(videos) {
                     <a href="#" class="comments-name">F8 Official</a><span class="comments-time">1 tháng trước</span>
                     <div class="comments-user_text">
                         <p class="comments-user_text_text2">
-                            😍Ai đang nghe nà 👇
+                        Chắc mấy bạn đang cô đơn
+                        Đang cảm thấy nhạt nhẻo vs chiếc điện thoại của mình...
+                        Đang suy nghĩ về người mình  mình yêu thương.. mà mình không có được☺️
                         </p>
                         <i class=' comments-user_text_icon  bx bx-dots-vertical-rounded'></i>
                         <div class="comments-report">
@@ -561,7 +579,7 @@ function showMovie(videos) {
                                 <a href="#" class="comments-name">F8 Official</a><span class="comments-time">1 tháng trước</span>
                                 <div class="comments-user_text">
                                     <p class="comments-user_text_text2">
-                                        Yêu đường gì tầm này quay kênh tôi học code đi 
+                                    "Liệu rằng câu hát em yêu anh, có đến bên anh"...
                                     </p>
                                     <i class=' comments-user_text_icon  bx bx-dots-vertical-rounded'></i>
                                     <div class="comments-report">
