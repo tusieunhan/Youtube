@@ -1,5 +1,5 @@
 
-const PlatList = "PLfCCoBcwAIbwvaFit7EJ2ztmz4gJn9ZvO"
+const PlatList = "PL_81B5q47r5kkq_agp_DbeOqXo1LQzRz2"
 const APIURL =
     `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails&maxResults=20&playlistId=${PlatList}&key=AIzaSyC3x0nIWqBt0f6mPKkf2-YT-BZhynqnTBA`
 
