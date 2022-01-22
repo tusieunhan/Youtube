@@ -228,6 +228,7 @@ input[type=text]{
 }
 .user-dropdown{
     position: absolute;
+    dislay : none;
     top: 50px;
     right: 25px;
     width: 300px;
