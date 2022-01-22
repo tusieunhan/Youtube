@@ -36,6 +36,7 @@ header{
 }
 .user-img{
     width: 33px;
+    dislay: none;
     border-radius:50%;
     margin-right:35px;
     margin-left: 15px;
